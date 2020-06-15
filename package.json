@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
     "prestart": "tsc"
   },
   "repository": {
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/pleed0215/typechain/issues"
   },
-  "homepage": "https://github.com/pleed0215/typechain#readme"
+  "homepage": "https://github.com/pleed0215/typechain#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "tsc-watch": "^4.2.8",
+    "typescript": "^3.9.5",
+    "typescript-tools": "^0.3.1"
+  }
 }
