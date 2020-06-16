@@ -18,7 +18,9 @@
     "url": "https://github.com/pleed0215/typechain/issues"
   },
   "homepage": "https://github.com/pleed0215/typechain#readme",
-  "dependencies": {},
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
   "devDependencies": {
     "tsc-watch": "^4.2.8",
     "typescript": "^3.9.5",
