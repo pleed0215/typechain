@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/pleed0215/typechain#readme",
   "dependencies": {
-    "crypto-js": "^4.0.0"
+    "crypto-js": "^4.2.0"
   },
   "devDependencies": {
     "tsc-watch": "^4.2.8",
